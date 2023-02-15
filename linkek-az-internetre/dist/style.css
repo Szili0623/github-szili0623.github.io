@@ -1,0 +1,15 @@
+a {
+  display: block;
+  margin: 10px;
+  font-family: 'Sen', sans-serif;
+  font-size: 30px;
+  color: green;
+}
+a:hover {
+  color: lime;
+  text-decoration: none;
+}
+
+a:visited {
+  color: none;
+}

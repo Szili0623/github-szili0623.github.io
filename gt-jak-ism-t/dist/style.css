@@ -1,0 +1,22 @@
+div {
+  margin: 10px;
+  width: 350px;
+  border: solid 8px RoyalBlue;
+}
+
+.north {
+  background: LightCoral;
+}
+
+.south {
+  background: DarkTurquoise;
+}
+
+.egtaj {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin: 0;
+  padding: 40px;
+}

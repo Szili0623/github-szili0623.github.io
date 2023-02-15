@@ -1,0 +1,29 @@
+div{
+  width: 350px;
+  border: solid 8px RoyalBlue;
+}
+
+p {
+  text-align: center;
+  width: 350px;
+  margin: 0;
+  padding: 45px 0;
+  color: white;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.north {
+  background: LightCoral;
+}
+.east {
+  background: Gold;
+}
+
+.south {
+  background: DarkTurquoise;
+}
+
+.west {
+  background: CornflowerBlue;
+}

@@ -1,0 +1,32 @@
+main {
+  font-family: 'Sen', sans-serif;
+  margin: 25px;
+  width: 400px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content img {
+  width: 150px;
+}
+
+.content a {
+  display: block;
+  color: blue;
+}
+
+a:hover {
+  color: CornflowerBlue;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}

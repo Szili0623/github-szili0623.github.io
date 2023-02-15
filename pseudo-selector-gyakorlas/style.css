@@ -1,0 +1,9 @@
+.pseudo {
+  margin: auto;
+  width: 25%;
+  border: black solid 1px;
+}
+
+.pseudo:hover {
+  background: orange;
+}

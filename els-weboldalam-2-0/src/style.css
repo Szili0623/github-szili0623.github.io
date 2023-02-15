@@ -1,0 +1,143 @@
+html {
+  margin: auto;
+  width: 1500px;
+  background: #3d9970;
+  color: white;
+}
+
+header ul {
+  font-family: 'Barlow Condensed', sans-serif;
+  background: #001F3F;
+  color: white;
+  font-size: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 40px;
+  display:flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.all {
+  display: flex;
+  gap: 25px;
+}
+
+.pict {
+  position: relative;
+  background: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-position: center;
+  background-size: 280%;
+  background-repeat: no-repeat;
+  object-position: 50% 50%;
+  position: relative;
+  height: 400px;
+  margin: 0 25px;
+  margin-left: 0;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+ font-family: 'Barlow Condensed', sans-serif;
+  font-size: 60px;
+  color: #222
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+
+#elsosor {
+  font-size: 35px;
+  position: absolute;
+  top: 80px;
+}
+
+main {
+  line-height: 30px;
+}
+
+blockquote {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  background: #001F3F;
+  color: white;
+  margin: 40px 0;
+  padding: 50px;
+}
+
+figure {
+  position: relative;
+  margin: 0 25px;
+  margin-left: 0;
+}
+
+.quote {
+  font-size: 90px;
+  position: absolute;
+  top: -40px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+main ul {
+  font-family: 'Montserrat', sans-serif;
+  margin: 35px 0;
+  margin-top: 25px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 35px 0;
+}
+
+h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: italic;
+  margin: 35px 0;
+}
+
+.experience h3 {
+  margin-bottom: 0;
+}
+
+.experience h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.experience ul {
+  line-height: 25px;
+  margin: 0;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  line-height: 30px;
+}
+
+footer h2 {
+  font-size: 30px;
+  padding-top: 50px;
+  border-top: solid #001F3F 5px;
+}
+
+footer ul {
+  list-style: none;
+  font-size: 25px;
+  line-height: 35px;
+}

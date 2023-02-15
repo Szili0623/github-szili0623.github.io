@@ -1,0 +1,30 @@
+#navig {
+  background: purple;
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center
+}
+
+.gomb {
+  background: cyan;
+  height: 30px;
+  border: none;
+}
+
+#tartalom {
+  display: flex;
+}
+
+main {
+  background: yellow;
+  height: 500px;
+  flex-grow: 4;
+}
+
+aside {
+  background: lime;
+  height: 500px;
+  flex-grow: 1;
+}
