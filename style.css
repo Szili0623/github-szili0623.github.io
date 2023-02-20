@@ -1,0 +1,24 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  list-style: none;
+  gap: 1.5em;
+}
+
+li {
+  margin: auto;
+  padding: 1em;
+  border: grey solid 1px;
+  border-radius: 50%;
+  background: green;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover {
+  background: black;
+}
