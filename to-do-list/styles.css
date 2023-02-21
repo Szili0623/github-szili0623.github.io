@@ -1,0 +1,61 @@
+html {
+  background-color: aquamarine;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.mainContainer {
+  background-color: GhostWhite;
+  width: 23%;
+  margin: auto;
+  margin-top: 2%;
+  border: solid 1px rgba(119, 119, 119, 0.568);
+  border-radius: 3%;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 1rem;
+  font-size: 2.5em;
+  color: rgba(119, 119, 119, 0.568);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 75%;
+  height: 2.5rem;
+  margin: auto;
+}
+
+form input,
+form button {
+  border: solid rgba(119, 119, 119, 0.568) 1.5px;
+  box-shadow: 0 0 1.5px rgba(119, 119, 119, 0.568);
+}
+
+form input {
+  width: 80%;
+  border-right: none;
+  font-size: 1rem;
+}
+
+form button {
+  width: 20%;
+  border-left: none;
+  background-color: Magenta;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+div.todoList {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.leftButton {
+  display: inline;
+}
