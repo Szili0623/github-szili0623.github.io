@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  font-size: 20px;
+}
+
+.container {
+  margin: auto;
+}
+
+.innerContainer {
+  margin-left: 20px;
+}
