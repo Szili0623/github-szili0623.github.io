@@ -1,0 +1,100 @@
+body {
+  background-image: url("/Gallery/images/hd-wallpaper-7772772_1920.jpg");
+  background-size: cover;
+}
+
+.mainContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.bigImageContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+img#photo {
+  width: 100%;
+}
+
+.grayContainer {
+  width: 100%;
+  height: 11vh;
+  background-color: rgba(0, 0, 0, 0.753);
+  position: absolute;
+  bottom: 0;
+}
+
+h1 {
+  margin: 1vh 7vh;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  margin: 1vh 7vh;
+  color: rgba(255, 255, 255, 0.897);
+}
+
+button {
+  width: 5vh;
+  border: none;
+}
+
+#rightButton {
+  transform: rotate(0.5turn);
+}
+
+#leftButton {
+  transform: rotate(0turn);
+}
+
+.buttonFade {
+  opacity: 50%;
+}
+
+.thumbnailContainer {
+  width: 100%;
+  position: absolute;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.thumbnail {
+  width: 70px;
+  height: 70px;
+  border: 0.5vh solid white;
+  box-shadow: rgb(0, 0, 0) 0px 20px 20px -10px;
+}
+
+.thumbnailActive {
+  width: 80px;
+  height: 80px;
+  box-shadow: rgb(0, 0, 0) 0px 20px 10px -10px;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+}
+
+.hiddenText {
+  display: none;
+  background: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 130px;
+  border-radius: 5px;
+  width: auto;
+}
+
+.thumbnail:hover .hiddenText{
+  display: block;
+}
